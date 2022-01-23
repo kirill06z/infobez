@@ -1,0 +1,7 @@
+﻿  Diffie–Hellman.cpp
+C:\Users\Кирилл\source\repos\Diffie–Hellman\Diffie–Hellman\Diffie–Hellman.cpp(27,14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Кирилл\source\repos\Diffie–Hellman\Diffie–Hellman\Diffie–Hellman.cpp(56,17): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Кирилл\source\repos\Diffie–Hellman\Diffie–Hellman\Diffie–Hellman.cpp(62,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Кирилл\source\repos\Diffie–Hellman\Diffie–Hellman\Diffie–Hellman.cpp(75,17): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Кирилл\source\repos\Diffie–Hellman\Diffie–Hellman\Diffie–Hellman.cpp(81,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Diffie–Hellman.vcxproj -> C:\Users\Кирилл\source\repos\Diffie–Hellman\Debug\Diffie–Hellman.exe
