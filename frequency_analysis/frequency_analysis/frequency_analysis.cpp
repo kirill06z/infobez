@@ -86,7 +86,7 @@ void podschet() {
     }
   
 }
-void perevod() {
+/*void perevod() {
     
 
 
@@ -115,4 +115,35 @@ void perevod() {
         }
         t++;
     }*/
+}*/
+  
+  // добавить в 52 строку счетчик для подсчетов символов тексте (symb) 
+//добавить конечный файл текста text2;
+// добавить alf_num1 для сохранение оригинального порядка
+alf_pop[]="оеаинтсрвлкмдпуяыьгзбчйхжшюцщэфёъ"
+char pop_num[32];
+void perevod(){
+
+for (int t=0;t<33;t++);
+{  for(int j;j<33;j++){
+   if(alf_num1[t]<alf_num[j]) alf_num1[t] = alf_num[j];
+
+}
+pop_num[t]+=alf_num1[t];
+alf_num1[t]=0;
+}
+cout<<pop_num;
+// по идее получим числа в порядке убывания
+// и теперь надо сделать цикл для перевода одного символа в другой
+for (int t=0; t<symb; t++){
+   for (int n=0; n<33;n++){
+    if (text[t]==alf[n]){
+     for(int x=0;x<32;x++){
+      if(alf_num[n]==num_pop[x])text2[t]=alf_pop[x];
+      }
+  
+    }
+   }
+}
+cout<<text2;
 }
